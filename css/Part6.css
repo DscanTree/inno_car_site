@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+
+img {
+    border: none;
+}
+
+/*页面内容*/
+
+.content {
+    width: 100%;
+}
+
+/*公共部分<关于一诺> 填充颜色*/
+.content .aboutCompany {
+    width: 100%;
+    height: 350px;
+    float: top;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/*第五部分上 需替换*/
+.content .Part5Above {
+    width: 100%;
+    height: 500px;
+    float: top;
+    background-color: darkseagreen;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/*第五部分下 需替换*/
+.content .Part5Bottom {
+    width: 100%;
+    height: 280px;
+    background-color: lightblue;
+    float: top;
+    text-align: center;
+}
+
+/*第六部分组合图片部分*/
+.content .pictureCombination {
+    width: 100%;
+    height: 600px;
+}
+
+.pictureCombination .pictureCombCenter {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.pictureCombination .pictureCombCenter img {
+    float: left;
+    position: relative;
+    transition: 1.5s;
+}
+
+.pictureCombination .pictureCombCenter .bg {
+    background-image: url("../img/img-关于我们/bg.jpg");
+    float: left;
+    width: 600px;
+    height: 300px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.pictureCombCenter .bg:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    color: whitesmoke;
+    transition: 1.5s;
+    z-index: 100;
+!important;
+}
+
+.pictureCombCenter .bg p:first-child {
+    font-family: 宋体, serif;
+    font-weight: bold;
+    margin-top: 55px;
+    font-size: 15px;
+    margin-left: 95px;
+}
+
+.pictureCombCenter .bg p:nth-child(3) {
+    text-align: left;
+    font-size: 13px;
+    margin-top: -5px;
+    line-height: 22px;
+    margin-left: 95px;
+}
+
+/*第六部分组合图片动画效果*/
+.pictureCombCenter img:hover {
+    transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    z-index: 100;
+    overflow: hidden;
+}
+
+
+/*第六部分客户服务部分*/
+.serviceIcon {
+    width: 100%;
+    height: 200px;
+    float: top;
+}
+
+.serviceIcon .serviceCenter {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.serviceCenter .icon1 {
+    width: 73px;
+    height: 73px;
+    margin-left: 270px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    background-image: url("../img/img-关于我们/icon.png");
+    background-position: -4px 1px;
+}
+
+.serviceCenter .icon2 {
+    width: 80px;
+    height: 73px;
+    margin-left: 210px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    background-image: url("../img/img-关于我们/icon.png");
+    background-position: -75px 0px;
+}
+
+.serviceCenter .icon3 {
+    width: 78px;
+    height: 74px;
+    margin-left: 210px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    background-image: url("../img/img-关于我们/icon.png");
+    background-position: -154px 1px;
+}
+
+/*第六部分公司服务理念下*/
+.content .companyMotto {
+    width: 100%;
+    height: 150px;
+}
+
+.companyMotto .companyMottoContent {
+    width: 1000px;
+    height: 130px;
+    margin: 40px auto 0;
+    text-align: center;
+    border: 1px solid #DBDBDB;
+    border-top: 0;
+}
+
+.companyMottoContent p:first-child {
+    font-size: 20px;
+
+    font-family: 等线, serif;
+}
+
+.companyMottoContent p:nth-child(2) {
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 30px;
+    color: grey;
+    font-family: 等线, serif;
+}
