@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     font-size: 14px;
@@ -80,7 +81,7 @@ img {
     color: whitesmoke;
     transition: 1.5s;
     z-index: 100;
-!important;
+     !important;
 }
 
 .pictureCombCenter .bg p:first-child {
