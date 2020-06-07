@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.word {
+	width: 100%;
+	height: 150px;
+}
+
+.word .wordContent {
+	width: 1000px;
+	height: 130px;
+	margin: 40px auto 0;
+	text-align: center;
+}
+
+.wordContent p:first-child {
+	font-size: 30px;
+	font-weight: 550;
+	font-family: 等线, monospace;
+}
+
+.wordContent p:nth-child(2) {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 550;
+	margin-top: 0.625rem;
+	font-family: 等线, serif;
+}
+
+.wordContent p:nth-child(4) {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	margin-top: 0.4rem;
+	font-family: 等线, serif;
+}
+
+.wordContent p:nth-child(5) {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	margin-top: 1.0rem;
+	font-family: 等线, serif;
+}
+
+.wordContent2 {
+	width: 1000px;
+	height: 130px;
+	margin: 40px auto 0;
+	text-align: center;
+}
+
+.wordContent2 p:first-child {
+	font-size: 30px;
+	font-weight: 550;
+	font-family: 等线, serif;
+}
+
+.wordContent2 p:nth-child(2) {
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: 500;
+	font-family: 等线, serif;
+}
+
+.wordContent2 p:nth-child(5) {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	margin-top: 0.4rem;
+	font-family: 等线, serif;
+}
+
+.wordContent2 p:nth-child(6) {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	margin-top: 0.4rem;
+	margin-bottom: 20px;
+	font-family: 等线, serif;
+}
+
+.picture {
+	width: 100%;
+	height: 200px;
+	margin-top: 40px;
+}
+
+.picture .pictureBox {
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.pictureBox .zIcon1 {
+	width: 128px;
+	height: 128px;
+	margin-left: 150px;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	background-image: url(../img/c1.png);
+	background-position: -4px 1px;
+}
+
+.pictureBox .zIcon2 {
+	width: 128px;
+	height: 128px;
+	margin-left: 135px;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	background-image: url(../img/c2.png);
+	background-position: -4px 1px;
+}
+
+.pictureBox .zIcon3 {
+	width: 128px;
+	height: 128px;
+	margin-left: 135px;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	background-image: url(../img/c3.png);
+	background-position: -4px 1px;
+}
+
+.pictureBox .zIcon4 {
+	width: 128px;
+	height: 128px;
+	margin-left: 135px;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	background-image: url(../img/c4.png);
+	background-position: -4px 1px;
+}
+
+.line {
+	width: 100%;
+	height: 10px;
+}
+
+.line1 {
+	background-color: rgba(96, 96, 96, 0.1);
+	height: 3px;
+	width: 40%;
+	float: left;
+	margin-top: 5px;
+}
+
+.line2 {
+	background-color: black;
+	height: 2px;
+	width: 5%;
+	float: left;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-top: 5px;
+}
+
+.line3 {
+	padding: 0;
+	float: left;
+	width: 5%;
+	height: 30px;
+	margin-left: 4%;
+	margin-right: 11%;
+	font-size: 28px;
+	font-weight: 500;
+	font-family: 等线, serif;
+	text-align: center;
+}
+
+.line4 {
+	background-color: black;
+	height: 3px;
+	width: 5%;
+	margin-top: 25px;
+	margin-left: 48%;
+}
